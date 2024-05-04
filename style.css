@@ -1,0 +1,105 @@
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+
+    img{
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+    span {
+        display: inline-block;
+        margin-left: 25px;
+        color: #E2B808; /* Hex code for E2B808 color */
+        font-family:'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        margin-top: -15px;
+      }
+      button {
+        float: right;
+        background-color: #E2B808;
+        color: black;
+        border: none;
+        padding: 0.5rem 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: -7px;
+        font-family:'Poppins';
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 40px;
+      }
+    }
+  main{
+    background-color: rgb(158, 20, 15);
+    height: 100px;
+    width: 100%;
+  }
+  footer{
+    background-color: black;
+    height: 190px;
+    width: 100%;
+
+    .footer-icons {
+      display: flex;
+      justify-content: center; 
+    }
+    .footer-icons img {
+      width: 30px;
+      height: 30px; 
+      padding: 5px;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+    .fivetext-links {
+      display: flex;
+      justify-content: center; 
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .fivetext-links li {
+      margin-right: 40px;
+      font-family:'Poppins';
+      font-size: 20px;
+    }
+    .twotext-links {
+      display: flex;
+      justify-content: center; 
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .twotext-links li {
+      margin-right: 40px;
+      margin-top: 10px;
+      font-family:'Poppins';
+      font-size: 20px;
+    }
+    .Copyright {
+      display: flex;
+      justify-content: center; 
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-family:'Poppins';
+      font-size: 20px;
+      color: white;
+    }
+
+    a {
+      text-decoration: none; 
+      color: white;
+    }
+    
+    a:visited {
+      color: white;
+    }
+    
+  }
