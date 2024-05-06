@@ -1,37 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header{
     background-color: black;
-    height: 100px;
+    height: 17vmin;
     width: 100%;
 
     img{
-        width: 60px;
-        height: 60px;
+        width: 11vmin;
+        height: 11vmin;
         float: left;
-        margin-top: 20px;
+        margin-top: 3vmin;
         border-radius: 50%;
+        margin-left: 5vmin;
     }
     span {
         display: inline-block;
-        margin-left: 25px;
+        margin-left: 5vmin;
         color: #E2B808; /* Hex code for E2B808 color */
         font-family:'Poppins', sans-serif;
         font-weight: bold;
-        font-size: 45px;
-        margin-top: -15px;
+        font-size: 2.5vmin;
       }
       button {
         float: right;
         background-color: #E2B808;
         color: black;
         border: none;
-        padding: 0.5rem 2rem;
-        border-radius: 10px;
+        padding: 1.5vmin 4vmin;
+        border-radius: 1vmin;
         cursor: pointer;
-        margin-top: -7px;
+        margin-top: 2vmin;
         font-family:'Poppins';
         font-weight: bold;
-        font-size: 20px;
-        margin-right: 40px;
+        margin-right: 4vmin;
+        font-size: 1vmin;
       }
     }
   main{
@@ -41,7 +47,7 @@ header{
   }
   footer{
     background-color: black;
-    height: 190px;
+    height: 40vmin;
     width: 100%;
 
     .footer-icons {
@@ -49,11 +55,12 @@ header{
       justify-content: center; 
     }
     .footer-icons img {
-      width: 30px;
-      height: 30px; 
+      width: 8vmin;
+      height: 8vmin; 
       padding: 5px;
-      margin-top: 20px;
-      margin-right: 10px;
+      margin-top: 2vmin;
+      margin-right: 5vmin;
+
     }
     .fivetext-links {
       display: flex;
@@ -64,9 +71,10 @@ header{
     }
     
     .fivetext-links li {
-      margin-right: 40px;
+      margin-right: 8vmin;
       font-family:'Poppins';
-      font-size: 20px;
+      font-size: 3vmin;
+      margin-top: 3vmin;
     }
     .twotext-links {
       display: flex;
@@ -77,10 +85,10 @@ header{
     }
     
     .twotext-links li {
-      margin-right: 40px;
-      margin-top: 10px;
+      margin-right: 8vmin;
+      margin-top: 3vmin;
       font-family:'Poppins';
-      font-size: 20px;
+      font-size: 3vmin;
     }
     .Copyright {
       display: flex;
@@ -89,8 +97,9 @@ header{
       padding: 0;
       margin: 0;
       font-family:'Poppins';
-      font-size: 20px;
+      font-size: 3vmin;
       color: white;
+      margin-top: 6vmin;
     }
 
     a {
@@ -101,5 +110,4 @@ header{
     a:visited {
       color: white;
     }
-    
   }
