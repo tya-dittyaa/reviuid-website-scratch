@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Dikasih jarak buat forum */
+
+:root{
+    --text-color: #9E140F;
+    --bg-color: #E2B808;
+}
+
+body{
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+.heading{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--main-color);
+}
+.movies-container{
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.box .box-img{
+    width: 100%;
+    height: 270px;
+    cursor: pointer;
+}
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box h3{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+.box span{
+    font-size: 14px;
+}
+
+.swipe-container{
+    display: grid;
+    gap: 1rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.swipe-container .box img:hover{
+    transform: translateY(0);
+}
+.swipe-container .box img{
+    border-radius: 11px;
+}
+
