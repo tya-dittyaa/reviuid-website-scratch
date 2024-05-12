@@ -70,3 +70,115 @@ body{
     border-radius: 11px;
 }
 
+
+/* ~~~~~~~~~~~~~~
+profile-page
+*/
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container a1 {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button-container a {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.back-button {
+    background-image: url('Logo/arrow-back-circle-outline-svgrepo-com.svg');
+    background-color: transparent;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+    
+
+
+.profile-box{
+    /* ~~~ */
+    height: 180px;
+    background-color: #E2E0D8;
+    color: white;
+    align-self: center;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding-top: 1px;
+    position: relative;
+}
+
+.profile-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 20px;
+    float: left;
+}
+
+.profile-box h2 {
+    font-size: medium;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 23px;
+    align-self: auto;
+}
+
+.profile-box .profile-text {
+    font-size: 10px;
+    color: black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.profile-box .button-edit {
+    background-image: url('Logo/settings-svgrepo-com (4).svg');
+    background-color: transparent;
+    background-size: cover;
+    width: 20px;
+    height: 20x;
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    white-space: nowrap;
+    font-size: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+
+    /* padding: 2px 5px 2px 2px; */
+    /* background-position: left;*/
+
+
+.profile-box .profile-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: black;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-left: -95px;
+    float: left;
+}
+
+
+.horizontal-line {
+    border-top: 2px solid black;
+    width: 90%;
+    height: 2px;
+    margin: 20px auto;
+}
