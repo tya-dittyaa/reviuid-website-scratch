@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="Reg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="red">
+            <a href="../Home/Home.html" class="logo">
+                <img src="../Image/Reviu.ID - Group 5 - SE LA08.png" class="logo" />
+            </a>
+            <a href="../Home/Home.html" class="title">
+                <h1 class="title">Reviu.ID </h1>
+            </a>
+        </div>
+        <div class="white">
+
+            <h2 class="Sign-Up">Sign Up</h2>
+            <form action="ForBackEnd(Adit).php" method="post">
+
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+                </div>
+                
+                <div class="input-container">
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="input-field" type="email" placeholder="Yourmail@email.com" name="email">
+                </div>
+                
+                <div class="input-container">
+                    <i class="fa fa-key icon"></i>
+                    <input class="input-field" type="password" placeholder="Password" name="psw">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-key icon"></i>
+                    <input class="input-field" type="password" placeholder="Confirm Password" name="rptpsw">
+                </div>
+    
+                <input class="input-submit" type="submit" value="Sign Up">
+                
+            </form> 
+            <p class="LogInRef">Already have an account? <a href="../Login/Login.html">Log In</a></p>
+        </div>
+    </div>
+</body>
+</html>
