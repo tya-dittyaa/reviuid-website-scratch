@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    header{
+      background-color: black;
+      height: 17vmin;
+      width: 100%;
+      
+      img{
+        width: 11vmin;
+        height: 11vmin;
+        float: left;
+        margin-top: 3vmin;
+        border-radius: 50%;
+        margin-left: 5vmin;
+      }
+      .name {
+        display: inline-block;
+        margin-left: 5vmin;
+        color: #E2B808; /* Hex code for E2B808 color */
+        font-family:'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 7vmin;
+        margin-top: 3vmin;
+      }
+      .userimage{
+        width: 11vmin;
+        height: 11vmin;
+        float: right;
+        margin-right: 4vmin;
+        margin-top: -10.5vmin;
+      }
+      .username {
+        float: right;
+        color: #E2B808;
+        cursor: pointer;
+        font-family:'Poppins';
+        font-weight: bold;
+        margin-right: 17vmin;
+        font-size: 3vmin;
+        margin-top: 6vmin;
+        text-decoration: none;
+      }
+
+    }
+    
+    main{
+      background-color: rgb(158, 20, 15);
+      height: 100px;
+      width: 100%;
+    }
+    
+    footer{
+      background-color: black;
+      height: 40vmin;
+      width: 100%;
+      
+      .footer-icons {
+        display: flex;
+        justify-content: center; 
+      }
+      
+      .footer-icons img {
+        width: 8vmin;
+        height: 8vmin; 
+        padding: 5px;
+        margin-top: 2vmin;
+        margin-right: 5vmin;
+      }
+  
+      .fivetext-links {
+        display: flex;
+        justify-content: center; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .fivetext-links li {
+        margin-right: 8vmin;
+        font-family:'Poppins';
+        font-size: 3vmin;
+        margin-top: 3vmin;
+      }
+      
+      .twotext-links {
+        display: flex;
+        justify-content: center; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .twotext-links li {
+        margin-right: 8vmin;
+        margin-top: 3vmin;
+        font-family:'Poppins';
+        font-size: 3vmin;
+      }
+  
+      .Copyright {
+        display: flex;
+        justify-content: center; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family:'Poppins';
+        font-size: 3vmin;
+        color: white;
+        margin-top: 6vmin;
+      }
+      
+      a{
+        text-decoration: none; 
+        color: white;
+      }
+      .clearfix {
+        overflow: auto;
+      }
+      a:visited {
+        color: white;
+      }
+    }
