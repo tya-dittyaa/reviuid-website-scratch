@@ -42,8 +42,8 @@ header{
     }
   main{
     background-color: rgb(158, 20, 15);
-    height: 100px;
-    width: 100%;
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
   }
   footer{
     background-color: black;
@@ -111,3 +111,123 @@ header{
       color: white;
     }
   }
+
+/* changes start here*/
+
+/* section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+} */
+
+.edit-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: var(--bg-color);
+  font-family: 'Poppins';
+}
+
+.edit-profile .user-details h1{
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 2;
+  color: #E2B808;
+}
+
+.edit-profile .user-details h2{
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+  padding-bottom: 15px;
+  color: #E2B808;
+}
+
+/* #change-pict {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#change-pict:hover {
+  background-color: #0056b3;
+}
+*/
+#change-pict-in {
+  display: none;
+} 
+
+.edit-profile .user-img img {
+  height: 250px;
+  border-radius: 60%;
+  position: relative;
+}
+
+button {
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+  padding: 8px;
+  color: black;
+  background-color: #E2B808;
+  border: 0;
+  border-radius: 1vmin;
+  font-weight: lighter;
+  font-family: 'Poppins';
+}
+
+button:hover {
+  background-color: #ba9709;
+}
+
+.edit-profile .user-form {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#input {
+  width: 300px;
+  margin-bottom: 8px;
+  background-color: white;
+  border: 0;
+  border-radius: 1vmin;
+  font-weight: lighter;
+  font-family: 'Poppins';
+}
+
+.edit-profile .user-form .back-button {
+  margin-top: 35px;
+  margin-left: 0;
+  margin-right: 5px;
+  width: 145px;
+  background-color: rgb(214, 214, 214);
+}
+
+.edit-profile .user-form .back-button:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+#submit {
+  width: 145px;
+  margin-top: 25px;
+  margin-left: 25px;
+  padding: 8px;
+  color: black;
+  background-color: #E2B808;
+  border: 0;
+  border-radius: 1vmin;
+  font-weight: lighter;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+#submit:hover {
+  background-color: #ba9709;
+}
+

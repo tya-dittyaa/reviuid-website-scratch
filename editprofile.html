@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body>
+  <header>
+    <ul>
+      <li><img src="../image/Reviu.ID.png" alt="logo"></li>
+    </ul>
+    <span class="logoname">Reviu.ID</span>
+    <button class="masuk">Masuk</button>
+  </header>
+
+<main>
+  <section class="edit-profile">
+    <div class="user-img">
+      <img src="../image/example_user_img.jpg"><br>
+      <!-- <label id="change-pict">Ganti Gambar</label>
+       -->
+      <button id="change-pict-btn" onclick="btn">Ganti Gambar</button>
+      <input type="file" id="change-pict-in" accept="image/*">
+    </div>
+
+    <script src="editprofile.js"></script>
+
+    <div class="user-details">
+      <h1>Profile</h1>
+      <h2 class="username">Ya ndak tau kok tanya saya</h2>
+
+      <div class="user-form">
+        <form>
+          <label for="user-bio">Bio</label><br>
+          <textarea id="input" placeholder="Tulis disini..."></textarea><br>
+
+          <label for="user-gen">Gender</label><br>
+          <select id="input">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <br>
+
+          <label for="user-loc">Lokasi</label><br>
+          <input type="text" id="input"><br>
+
+          <label for="user-dob">Tanggal Lahir</label><br>
+          <input type="date" id="input"><br>
+
+          <label for="user-email">Email</label><br>
+          <input type="email" id="input"><br>
+
+          <label for="user-tlp">No. Telepon</label><br>
+          <input type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1234-5678-9012" id="input"><br>
+
+          <label for="user-pass">Password</label><br>
+          <input type="password" id="input"><br>
+
+          <button class="back-button">Kembali</button>
+          <input id="submit" type="submit">
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <div class="footer-icons">
+      <a href="">
+        <img src="../image/Instagram.png" alt="Instagram">
+      </a>
+      <a href="">
+        <img src="../image/Xcom.jpg" alt="X">
+      </a>
+      <a href="">
+        <img src="../image/Facebook.jpg" alt="Facebook">
+      </a>
+      <a href="">
+        <img src="../image/Discord.png" alt="Discord">
+      </a>
+    </div>
+
+    <div>
+  <ul class="fivetext-links">
+    <li><a href="#">Bantuan</a></li>
+    <li><a href="#">Tentang Kami</a></li>
+    <li><a href="#">Kondisi Pengunaan</a></li>
+    <li><a href="#">Kebijakan Privasi</a></li>
+    <li><a href="#">Periklanan</a></li>
+  </ul>
+</div>
+
+<div>
+<ul class="twotext-links">
+  <li><a href="#">Developer Reviu.ID</a></li>
+  <li><a href="#">Pilihan Privasi Iklan</a></li>
+</ul>
+</div>
+
+<div>
+<ul class="Copyright">
+  <p>© 2024 Oleh Reviu Film ID, Inc.</p>
+</ul>
+</div>
+  </footer>
+</body>
+
+</html>
