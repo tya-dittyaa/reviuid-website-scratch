@@ -7,6 +7,40 @@
 }
 
 /* Dikasih jarak buat forum */
+.movie-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to next line if needed */
+    justify-content: space-between; /* Distributes cards evenly */
+  }
+  
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 232px; /* Adjust width as needed for responsiveness */
+    height: 359px;
+    margin: 10px;
+  
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+    object-fit: cover; /* Scales image to fit container */
+  }
+  
+  .movie-info {
+    padding: 10px;
+  }
+  
+  .movie-info h2 {
+    margin-bottom: 5px;
+  }
+  
 
 :root{
     --text-color: #9E140F;
@@ -18,14 +52,22 @@ body{
     color: var(--bg-color);
 }
 
-.heading{
-    max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.2rem;
-    font-weight: 500;
-    border-bottom: 1px solid var(--main-color);
+h1{
+    font-size: 24px;
+    color: #E2B808;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    align-self: auto;
 }
+
+h4{
+    font-size: 24px;
+    color: #E2B808;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    align-self: auto;
+}
+
 .movies-container{
     max-width: 968px;
     margin-right: auto;
@@ -36,9 +78,11 @@ body{
     margin-top: 2rem;
 }
 .box .box-img{
-    width: 100%;
-    height: 270px;
-    cursor: pointer;
+    width: 232px;
+    height: 359px;
+    cursor: pointer;    
+    border-radius: 11px;
+
 }
 .box .box-img img{
     width: 100%;
@@ -54,11 +98,10 @@ body{
 .box span{
     font-size: 14px;
 }
-
 .swipe-container{
     display: grid;
     gap: 1rem;
-    max-width: 968px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -70,7 +113,43 @@ body{
     border-radius: 11px;
 }
 
+.title {
+    color: #E2B808;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+}
 
+.rules-container {
+    width: 300px; 
+    background-color: #E2E0D8; 
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: relative; 
+    margin-top: 60px; 
+    margin-right: 60px;
+}
+
+.rules-container h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 16px;
+    position: absolute; 
+    top: -40px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.rules-container ol {
+    color: black;
+    padding-left: 20px;
+}
+
+.rules-container li {
+    margin-bottom: 8px;
+}
 /* ~~~~~~~~~~~~~~
 profile-page
 */
