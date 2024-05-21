@@ -7,3 +7,11 @@ document.getElementById('change-pict-btn').addEventListener('click', function() 
 // back button
 const backButton = document.querySelector('.back-button');
 backButton.addEventListener('click', () => {window.history.back();});
+
+function input_rating() {
+  const rating = document.querySelector("");
+  const ulasan = document.querySelector("")
+  rating.onclick = () => {
+    ulasan.style.display = "block";
+  }
+}

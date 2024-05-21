@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body>
+  <header>
+    <ul>
+      <li><img src="../image/Reviu.ID.png" alt="logo"></li>
+    </ul>
+    <span class="logoname">Reviu.ID</span>
+    <button class="masuk">Masuk</button>
+  </header>
+
+<main>
+  <section class="film-page">
+    <!-- <div class="back-button">
+        <img src="" alt="">
+    </div> -->
+
+    <!-- <h1>hello</h1> -->
+
+    <div class="film-img">
+        <h1 class="film-title">Mencuri Raden Saleh</h1>
+        <img src="../image/poster.jpeg">
+    </div>
+
+    <div class="film-details">
+        <h2 class="trailer">Cuplikan Film</h2>
+
+        <div class="video">
+            <video width="560" height="270" controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+
+        <h2 class="Sinopsis">Sinopsis</h2>
+        <h3>Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam. Quisque sed gravida arcu, eget sodales sapien. Fusce ac pulvinar tortor. Etiam porttitor elementum vestibulum. Praesent vitae ornare quam, eu convallis nibh. Fusce sapien magna, sollicitudin sit amet rhoncus ut, facilisis et tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eu lorem eget felis malesuada volutpat ac laoreet lorem.</h3>
+    </div>
+  </section>
+
+  <section class="container-rating">
+    <!-- <div class="thankyou-popup">
+      <p>Terima kasih atas rating anda!</p>
+    </div> -->
+
+    <div class="ratings">
+        <h2>4.0</h2>
+        <input type="radio" id="5" onclick="input_rating()"><label for="5">★</label>
+        <input type="radio" id="4" onclick="input_rating()"><label for="4">★</label>
+        <input type="radio" id="3" onclick="input_rating()"><label for="3">★</label>
+        <input type="radio" id="2" onclick="input_rating()"><label for="2">★</label>
+        <input type="radio" id="1" onclick="input_rating()" ><label for="1">★</label>
+        <br>   
+
+      <!-- rewrite this later -->
+    </div>
+
+    <script src="editprofile.js"></script>
+
+    <div class="form-ulasan">
+      <form action="#">
+        <div class="textarea">
+          <label>Tulis Komentarmu!</label>
+          <textarea cols="30" placeholder="Tulis ulasan..."></textarea>
+        </div>
+      </form>
+      <div class="unggah-button">
+        <button type="submit">Unggah</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="komen-container">
+    <div class="komen">
+      <div class="username">
+        <img class="pfp" src="../image/ex_poster.jpg">
+        <h2>username1</h2>
+      </div>
+      
+      <p>Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam. Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam.</p>
+
+      <div class="buttons">
+        <a href=""><img id="like" src="../image/like.png"></a>
+        <a href=""><img id="dislike" src="../image/dislike.png"></a>
+        <a href=""><img id="share" src="../image/share.png"></a>
+        <a href=""><img id="report" src="../image/flags.png"></a>
+      </div>
+    </div>
+
+    <div class="komen">
+      <div class="username">
+        <img class="pfp" src="../image/ex_poster.jpg">
+        <h2>username2</h2>
+      </div>
+      
+      <p>Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam. Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam.</p>
+
+      <div class="buttons">
+        <a href=""><img id="like" src="../image/like.png"></a>
+        <a href=""><img id="dislike" src="../image/dislike.png"></a>
+        <a href=""><img id="share" src="../image/share.png"></a>
+        <a href=""><img id="report" src="../image/flags.png"></a>
+      </div>
+    </div>
+
+    <div class="komen">
+      <div class="username">
+        <img class="pfp" src="../image/ex_poster.jpg">
+        <h2>username3</h2>
+      </div>
+      
+      <p>Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam. Nunc id tortor dolor. Sed vel porttitor sem, id pellentesque quam.</p>
+
+      <div class="buttons">
+        <a href=""><img id="like" src="../image/like.png"></a>
+        <a href=""><img id="dislike" src="../image/dislike.png"></a>
+        <a href=""><img id="share" src="../image/share.png"></a>
+        <a href=""><img id="report" src="../image/flags.png"></a>
+      </div>
+    </div>
+    
+    
+
+  </section>
+</main>
+
+  <footer>
+    <div class="footer-icons">
+      <a href="">
+        <img src="../image/Instagram.png" alt="Instagram">
+      </a>
+      <a href="">
+        <img src="../image/Xcom.jpg" alt="X">
+      </a>
+      <a href="">
+        <img src="../image/Facebook.jpg" alt="Facebook">
+      </a>
+      <a href="">
+        <img src="../image/Discord.png" alt="Discord">
+      </a>
+    </div>
+
+    <div>
+  <ul class="fivetext-links">
+    <li><a href="#">Bantuan</a></li>
+    <li><a href="#">Tentang Kami</a></li>
+    <li><a href="#">Kondisi Pengunaan</a></li>
+    <li><a href="#">Kebijakan Privasi</a></li>
+    <li><a href="#">Periklanan</a></li>
+  </ul>
+</div>
+
+<div>
+<ul class="twotext-links">
+  <li><a href="#">Developer Reviu.ID</a></li>
+  <li><a href="#">Pilihan Privasi Iklan</a></li>
+</ul>
+</div>
+
+<div>
+<ul class="Copyright">
+  <p>© 2024 Oleh Reviu Film ID, Inc.</p>
+</ul>
+</div>
+  </footer>
+</body>
+
+</html>

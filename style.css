@@ -113,7 +113,7 @@ header{
   }
 
 /* changes start here*/
-
+/* edit profile page */
 /* section {
   min-height: 100vh;
   padding: 5rem 9% 5rem;
@@ -230,4 +230,262 @@ button:hover {
 #submit:hover {
   background-color: #ba9709;
 }
+
+/* film page */
+
+.film-page {
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 4rem;
+}
+
+.film-img img {
+  min-width: 360px;
+  min-height: 350px;
+  border-radius: 3%;
+  /* position: ; */
+  margin: 0;
+}
+
+.film-img .film-title {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.film-details h2 {
+  color: #E2B808;
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.film-details h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: justify;
+  padding-right: 50px;
+}
+
+.film-details .video {
+  padding-bottom: 20px;
+}
+
+/* rating */
+
+.container-rating {
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+  padding: 50px;
+}
+
+.container-rating .ratings {
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #e2b60854;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  display: flex;
+  color: #FFD700;
+}
+
+.container-rating .ratings h2 {
+  font-weight: lighter;
+  padding-right: 20px;
+  font-size: 40px;
+}
+
+.container-rating .ratings input {
+  display: none;
+}
+
+.container-rating .ratings label {
+  font-size: 40px;
+  color: #ba9709;
+  cursor: pointer;
+  float: right;
+  transition: all 0.2s ease;
+}
+
+.container-rating .thankyou-popup {
+  display: none;
+}
+
+.container-rating .ratings input:not(:checked) ~ label:hover,
+.container-rating .ratings input:not(:checked) ~ label:hover ~ label {
+  color: yellow;
+  /* display: block; */
+}
+
+.container-rating input:checked ~ label {
+  color: yellow;
+}
+
+.container-rating input#5:checked ~ label {
+  text-shadow: 0 0 0 20px;
+}
+
+/* form */
+
+.container-rating .form-ulasan {
+  background-color: #e2b60854;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  color: white;
+  text-align: center;
+}
+
+.container-rating .form-ulasan textarea {
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.container-rating .form-ulasan .unggah-button button {
+  /* margin: 0; */
+  /* padding: 0; */
+  margin-top: 20px;
+  margin-left: 0;
+  width: 100px;
+  /* color: blue; */
+}
+
+.container-rating .form-ulasan {
+  display: none;
+}
+
+.container-rating .ratings input:checked ~ form{
+  display: block;
+}
+
+form header {
+  width: 100%;
+  color: grey;
+  font-size: 24px;
+  margin: 5px 0 20px 0;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+
+form .textarea {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: whitesmoke;
+  border: 10px;
+  background: whitesmoke;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+
+
+/* komen */
+
+.komen-container {
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  font-family: 'Poppins';
+}
+
+.komen-container .komen {
+  background-color: white;
+  margin: 8px;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.komen-container .komen .pfp {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0;
+  justify-content: start;
+}
+
+.komen-container .komen .username {
+  display: flex;
+}
+
+.komen-container .komen h2 {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  /* padding: 0; */
+}
+
+.komen-container .komen p {
+  padding-bottom: 15px;
+}
+
+.komen-container .buttons {
+  /* display: flex;
+  justify-content: center; */
+  background-color: #FFD700;
+  width: 165px;
+  padding: 10px;
+  /* justify-content: center; */
+  padding-left: 20px;
+  border-radius: 50px;
+
+}
+
+.komen-container .buttons a #like, #dislike {
+  display: inline-block; 
+  justify-content: start;
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.komen-container .buttons #share:hover {
+  width: 25px;
+  height: 25px;
+  transition: all 0.3s ease-in;
+}
+
+.komen-container .buttons a #share {
+  display: inline-block; 
+  /* justify-content: center; */
+  /* align-items: center; */
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* color: blue; */
+}
+
+.komen-container .buttons a #report {
+  display: inline-block; 
+  justify-content: end;
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* margin-left: 0px; */
+}
+
 
