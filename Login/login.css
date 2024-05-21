@@ -1,4 +1,8 @@
 /* main body */
+*{
+    font-family: 'Poppins';
+}
+
 html, body {
     margin: 0;
     padding: 0;

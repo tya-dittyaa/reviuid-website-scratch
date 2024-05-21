@@ -1,6 +1,10 @@
+*{
+    font-family: 'Poppins';
+}
+
 body {
     background-color: #9E140F;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     display: flex;

@@ -1,4 +1,8 @@
 /* main body */
+*{
+    font-family: 'Poppins';
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -57,7 +61,7 @@ input[type="submit"]{
     display: inline-block;
     font-size: 10px;
     margin: 8px 0px;
-    padding: 8px 78.5px;
+    padding: 8px 92px;
     cursor: pointer;
     border-top-left-radius: 2px 2px;
     border-top-right-radius: 2px 2px;
